@@ -24,11 +24,6 @@ body {
 font-size: 14px;
 margin: 0px auto;
 background-image: url(images/background.jpg);
-
-
-
-
-
 }
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
@@ -65,12 +60,8 @@ color: #012134;
 	
 	background-color: #66ccff;
 	border-radius: 40px;
-	background-size: 60px;
-
-	
+	background-size: 60px;	
 }
-
-
 /* change colours to suit your needs */
 ins {
 background-color:#ff9;
@@ -112,7 +103,6 @@ vertical-align:middle;
 }
 #wrapper{
 	width: 1600px;
-	
 }
 .container {
 	width: 980px;
@@ -257,7 +247,6 @@ header{
 	margin-top:0px;
 	margin-bottom: 15px;
 }
-
 .footer-divider{
 
 	height: 8px;
@@ -273,7 +262,6 @@ header{
 	height: 350px;
 	background-image: url(images/footer-background.jpg);
 }
-
 .footer-left-right{
 	width: 980px;
 	margin: 0px auto;
@@ -283,22 +271,18 @@ header{
 	float: left;
 	width: 330px;
 	margin-top: 70px;
-	
 }
-
 .footer-left-details p, .footer-right-details p{
 	color: #fff;
 	font-style: italic;
 	font-size: 13px;
 	margin-top: 10px;
-
 }
 .footer-left-details h3{
 
 	font-family: "verdana", serif;
 	font-size: 18px;
 	color: #fff;
-	
 }
 .footer-right-details {
 	float: right;
@@ -309,21 +293,17 @@ header{
 	font-family: "verdana", serif;
 	font-size: 18px;
 	color: #fff;
-	
 }
 .footer-headings h3{
 
 	font-family: "verdana", serif;
 	font-size: 18px;
 	color: #f58002;
-
-
 }
 .footer-images{
 	width: 630px;
 	height: 80px;
 	float: right;
-	
 }
 .imagebox-a{
 	width: 82px;
@@ -331,7 +311,6 @@ header{
 	float: left; 
 	margin-right: 20px;
 	margin-top: 10px;
-
 }
 
 
