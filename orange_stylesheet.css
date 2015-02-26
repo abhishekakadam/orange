@@ -91,7 +91,8 @@ clear: both;
 	height: 73px;
 	width: 140px;
 	display: block;
-	margin: 10px auto;
+	margin: 0px auto;
+	padding-top: 20px;
 }
 .main_nav{
 
@@ -177,7 +178,7 @@ clear: both;
 	
 	height: 552px;
 	margin-top: 2px;
-
+	
 }
 
 .gallery ul li{
@@ -216,32 +217,34 @@ clear: both;
 	margin-left: 5px;
 	line-height: 18px;
 	overflow: auto;
-
 }
 
 footer{
 
 	background: url(images/footer-background.jpg);
 }
-
 .footer-wrapper{
 
 	width: 980px;
 	margin: 0px auto;
-
 }
+.footer-container{
 
+	padding-top:50px;
+}
 .orange{
 
 	color: orange;
 }
 .footer-left{
 
-	font-family: "halvetica-bold", arial, sans serif;
 	float: left;
-	font-style: normal;
 	width: 320px;
-
+}
+.footer-left h3{
+	font-family: "halvetica-bold", arial, sans serif;
+	font-style: normal;
+	font-size: 20px;
 }
 .footer-right{
 	
@@ -249,17 +252,37 @@ footer{
 	width: 630px;
 	padding-left: 30px;
 }
-.footer-right-details{
+
+.footer-right-details h3{
 
 	font-family: "halvetica-bold", arial, sans serif;
 	font-style: normal;
+	font-size: 20px;
+}
+.footer-right-details p, .footer-left p {
+
+	margin-top: 5px;
+	line-height: 16px;
 }
 .footer-thumbs ul li{
 
-		list-style: none;
-		float: left;
-		margin-right: 5px;
-		margin-top: 10px;
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+	margin-top: 10px;
 
 }
+
+.footer-orange{
+
+	background:url(images/footer-orange.png);
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	display: block;
+	width: 248px;
+	height: 176px;
+}
+
+
 
