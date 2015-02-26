@@ -21,29 +21,27 @@ background:transparent;
 }
 body {
 /*line-height:1px;*/
-font-size: 14px;
+font-size: 12px;
 margin: 0px auto;
 background-image: url(images/background.jpg);
+font-family: "Georgia Regular", sans serif;
+color: #fff;
 }
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
 display:block;
 }
-
 nav ul {
 list-style:none;
 }
-
 blockquote, q {
 quotes:none;
 }
-
 blockquote:before, blockquote:after,
 q:before, q:after {
 content:'';
 content:none;
 }
-
 .main_nav ul li a {
 margin:0;
 padding:0px;
@@ -53,12 +51,10 @@ background:transparent;
 vertical-align: baseline;
 text-decoration:none;
 color: #012134;
-
 }
-
 .main_nav ul li a:hover{
 	
-	background-color: #66ccff;
+	background-color: #000;
 	border-radius: 40px;
 	background-size: 60px;	
 }
@@ -102,7 +98,7 @@ vertical-align:middle;
 	clear: both;
 }
 #wrapper{
-	width: 1600px;
+	
 }
 .container {
 	width: 980px;
@@ -127,7 +123,7 @@ header{
 }
 .main_navigation ul{
 	height: 55px;
-	width: 460px;
+	width: 524px;
 	display: block;
 	margin: 10px auto;
 }
@@ -186,11 +182,13 @@ header{
 	height: 18px;
 	width: 92px;
 	padding-top: 2px;
+	font-style: italic;
 }
 .left-right-nav-text p{
 	color: #fff;
 	font-style: italic;
 	text-shadow:1px 1px #000;
+	width:113px;
 }
 .gallery{
 	height: 552px;
@@ -258,7 +256,6 @@ header{
 
 .footer-left-right-back{
 
-	width: 1600px;
 	height: 350px;
 	background-image: url(images/footer-background.jpg);
 }
@@ -311,6 +308,12 @@ header{
 	float: left; 
 	margin-right: 20px;
 	margin-top: 10px;
+}
+.footet-orange-image{
+	float:right;
+	height: 500px;
+	width: 500px;
+	background: url(images/footer-orange.png) center no-repeat top-right;
 }
 
 
