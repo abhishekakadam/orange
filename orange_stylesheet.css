@@ -230,7 +230,7 @@ footer{
 }
 .footer-container{
 
-	padding-top:50px;
+	padding-top:75px;
 }
 .orange{
 
@@ -273,15 +273,11 @@ footer{
 
 }
 
-.footer-orange{
+.footer-oragne{
+	position:absolute;
+	top:1080px;
+	right:322px;
 
-	background:url(images/footer-orange.png);
-	position: absolute;
-	right: 0px;
-	bottom: 0px;
-	display: block;
-	width: 248px;
-	height: 176px;
 }
 
 
